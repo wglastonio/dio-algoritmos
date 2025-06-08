@@ -17,7 +17,7 @@ public class CalculadoraPartidas {
         input.close();
         saldo = vitorias - derrotas;
 
-        if (saldo > 101) {
+        if (saldo > 100) {
             level = "Imortal";
         } else if (saldo > 90) {
             level = "Lendario";
